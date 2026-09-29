@@ -1,2 +1,33 @@
 # PPIO MEMO
-Windows installers for the PPIO memo app. Downloads and setup notes: https://ppio.house/memo/
+
+화면 가장자리에서 빼꼼 나오는 Windows 포스트잇 메모 앱입니다.
+
+## 다운로드
+
+- [최신 Windows 설치본](https://github.com/ppiohouse/ppio-memo/releases/latest)
+- Windows 10/11, x64 및 32비트(ia32) 지원
+
+> 현재 설치 파일에는 코드 서명이 없습니다. Windows SmartScreen 안내가 나타날 수 있으므로 이 저장소의 공식 릴리스와 `SHA256SUMS.txt`를 확인해 주세요.
+
+## 주요 기능
+
+- 화면 오른쪽·왼쪽·위쪽 가장자리에 메모 배치
+- 마우스를 올리면 펼치고 클릭하면 고정
+- 할 일 체크박스, 이미지 붙여넣기, 시간 알림
+- JSON 백업 및 HTML 내보내기
+- 같은 Wi-Fi의 휴대폰에서 보기·쓰기
+- 한국어를 포함한 13개 언어
+- Google 계정으로 여러 PC의 메모 동기화(v1.1.0부터)
+
+## Google 동기화와 개인정보
+
+PPIO MEMO는 Google Drive의 앱 전용 숨김 공간(`appDataFolder`)만 사용하며 일반 Drive 파일에는 접근하지 않습니다. 메모는 사용자의 Google Drive에 저장되고 PPIO 서버를 거치지 않습니다. 로그인 토큰은 Windows의 암호화 저장소로 보호합니다.
+
+자세한 내용은 [개인정보처리방침](PRIVACY.md)을 확인해 주세요.
+
+## 공식 안내
+
+- 홈페이지: https://ppio.house/memo/
+- 문의: ppio.house@gmail.com
+
+Copyright © PPIO.HOUSE
